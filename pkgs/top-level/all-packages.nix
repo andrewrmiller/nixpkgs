@@ -582,6 +582,8 @@ in
 
   bashburn = callPackage ../tools/cd-dvd/bashburn { };
 
+  bashdb = callPackage ../development/tools/bashdb { };
+
   bashmount = callPackage ../tools/filesystems/bashmount {};
 
   bc = callPackage ../tools/misc/bc { };
